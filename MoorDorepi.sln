@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoorDorepi", "src\MoorDorepi\MoorDorepi.csproj", "{63B3E200-FA1D-4BFD-8BDC-87C504BF8FE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{9D53B1A2-848E-4467-976E-E082BB16A585}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{ACD4386E-1D50-43E0-8191-5B3093A92793}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoorDorepi.Samples.Console", "samples\MoorDorepi.Samples.Console\MoorDorepi.Samples.Console.csproj", "{330B211D-EAFA-41EE-A0B7-DEBFC5BEDFF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63B3E200-FA1D-4BFD-8BDC-87C504BF8FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B3E200-FA1D-4BFD-8BDC-87C504BF8FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B3E200-FA1D-4BFD-8BDC-87C504BF8FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B3E200-FA1D-4BFD-8BDC-87C504BF8FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{330B211D-EAFA-41EE-A0B7-DEBFC5BEDFF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330B211D-EAFA-41EE-A0B7-DEBFC5BEDFF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330B211D-EAFA-41EE-A0B7-DEBFC5BEDFF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330B211D-EAFA-41EE-A0B7-DEBFC5BEDFF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63B3E200-FA1D-4BFD-8BDC-87C504BF8FE8} = {9D53B1A2-848E-4467-976E-E082BB16A585}
+		{330B211D-EAFA-41EE-A0B7-DEBFC5BEDFF3} = {ACD4386E-1D50-43E0-8191-5B3093A92793}
+	EndGlobalSection
+EndGlobal
